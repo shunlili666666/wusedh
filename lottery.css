@@ -1,0 +1,105 @@
+a,button,input,select,textarea{padding:0;outline:0!important;}
+*{box-sizing:border-box;margin:0;padding:0;border:0;}
+a:active,a:focus,a:hover,a:visited{text-decoration:none!important;}
+.clearFix:after{clear:both;display:block;visibility:hidden;height:0;content:'';zoom:1;}
+a:link{text-decoration:none;}
+li,ul{list-style:none;}
+a{color:#3e3e3e;font-size:12px;-webkit-transition:color .3s ease-out;transition:all .2s ease-out;}
+a:active,a:focus,a:hover,a:visited{text-decoration:none!important;}
+.domains_bg{background:#070e20 url(../images/domain_bg.jpg) top center no-repeat;background-size:cover;}
+.domains_logo{overflow: hidden;animation: fadeInDown .5s linear both}
+.domains_wrap{position:relative;animation: fadeInDown .5s 0.2s linear both}
+.animated{animation-duration:.5s;animation-fill-mode:both}
+@keyframes fadeInDown{0%{opacity:0;transform:translate3d(0,-10%,0)}to{opacity:1;transform:none}}
+.domains_bg .domains_body{margin:0 auto;width:1046px;}
+.domains_body .domains_logo a{display:block;margin:55px auto 110px;width:324px;height:103px;background: url("./../images/domain_logo.png") no-repeat center;background-size: contain;}
+.domains_wrap>div{height:544px;}
+.domains_left{float:left;padding:20px 26px;width:673px;border:1px solid #355486;}
+.domains_left .domains_box p{margin-bottom:20px;padding-bottom:20px;border-bottom:1px dashed #355486;color:#fff;font-size:16px;}
+.domains_left .domains_box{padding:22px 48px 15px;background:rgba(48,69,114,.6);height: 100%}
+.domains_left .speed_box_ul li{margin-bottom:8px;height:30px;font-size:14px;line-height:30px;}
+.speed_box_ul li .domian_arrow{display:inline-block;margin:0 14px;width:27px;height:14px;background:url(../images/domain_arrow.png) no-repeat;}
+.domains_left .speed_box_ul li>div{display:inline-block;height:100%;width:244px;}
+.domains_left .speed_box_ul .speed_num{display:inline-block;width:84px;height:100%;border-radius:4px;background:#fff;color:#1ea6fc;text-align:center;}
+.domains_left .speed_box_ul input{padding-left:18px;width:100%;height:100%;border-radius:4px;background:#fff;color:#666;font-size:14px;}
+.domains_left .speed_box_ul a.btn{float:right;display:inline-block;width:114px;height:100%;border-radius:4px;background:#1ea6fc;color:#fff;text-align:center;}
+.domains_left .speed_box_ul a.btn:hover{background:#038de4;}
+.domains_box .domains_btn{display:block;margin:20px auto 0;width:190px;height:48px;border-radius:4px;background:#fbc013;color:#69340a;font-size:16px;line-height:48px;cursor:pointer;transition:all .2s ease-in;}
+.domains_box .domains_btn:hover{background:#ffd65f;}
+.domains_right{float:right;padding:20px 26px;width:358px;border:1px solid #355486;}
+.domains_right .domains_pack{padding:22px 26px 15px;height:100%;background:rgba(48,69,114,.6);color:#fff;}
+.domains_pack .pack_top h6{margin-bottom:4px;font-size:16px;}
+.domains_pack .pack_top p{margin-bottom:22px;padding-bottom:16px;border-bottom:1px dashed #355486;font-size:12px;line-height:20px;}
+.domains_pack .pack_mid h6{margin-bottom:10px;color:#1ea6fc;font-size:16px;}
+.domains_pack .pack_mid p{font-size:12px;line-height:20px;}
+.domains_pack .pack_bottom a{display:block;padding-left:80px;height:48px;border-radius:4px;font-size:16px;line-height:48px;transition:all .2s ease-in;}
+.domains_pack .pack_bottom a.dns{margin-top:30px;background:#35bf00 url(./../images/dns.png) no-repeat 38px center;color:#fff;}
+.domains_pack .pack_bottom a.dns:hover,.domains_pack .pack_bottom a.tool:hover{background-color:#3ee100;}
+.domains_pack .pack_bottom a.tool{background:#35bf00 url(./../images/tool.png) no-repeat 38px center;margin: 22px 0;color:#fff}
+.domains_pack .pack_bottom a.customer{background:#fbc014 url(./../images/customer.png) no-repeat 38px center;color:#69340a;}
+.domains_pack .pack_bottom a.customer:hover{background-color:#ffd65f;}
+.line_wrap li{position:relative;margin-bottom:28px;width:58px;height:14px;line-height:14px;}
+.domains_wrap .line_wrap{position:absolute;top:50px;left:651px;height: auto}
+.line_wrap li span{display:inline-block;}
+.line_wrap li .circle{width:14px;height:14px;border-radius:50%;background:rgba(255,255,255,.2);}
+.line_wrap li .circle.left{float:right;}
+.line_wrap li .line{position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;width:46px;height:6px;border-radius:20px;background:#fff;}
+#header{overflow:hidden;height:85px;background:#0068f1;line-height:85px;}
+#header .container{margin:0 auto;width:1200px;}
+#header .container a.logo{float:left;margin-top:22px;height:40px;}
+#header .container a img{vertical-align:top;}
+#header .container .return{float:right;margin-top:17px;width:172px;height:50px;border:1px solid #fff;border-radius:60px;color:#fff;text-align:center;font-size:18px;line-height:48px;transition:all .2s ease-in;}
+#header .container .return:hover{background:#fff;color:#0068f1;}
+.main .container{margin:0 auto;width:980px;}
+.main .container .wrap{width:755px;color:#333;}
+.dns_title h5{margin:35px 0;padding-left:25px;border-left:3px solid #0068f1;font-size:26px;}
+.dns_title p{font-size:14px;line-height:24px;}
+.dns_title h6{margin-top:30px;font-size:16px;}
+.dns_title div{margin:40px 0;height:55px;background:#f9f9f9;color:#666;text-align:center;font-size:20px;line-height:55px;}
+.steps .box{color:#333;}
+.steps .box h6{margin-bottom:10px;font-size:16px;}
+.steps .box p{margin-bottom:15px;font-size:14px;}
+.steps .box img{margin-bottom:30px;}
+.steps .box a{color:#23527c;font-size:14px;transition:all .2s ease-in;}
+.steps .box a:hover{text-decoration:underline!important;}
+#footer{margin-top:80px;padding:18px 0;height:85px;border-top:1px solid #d9d9d9;background:#fafafa;color:#666;text-align:center;font-size:14px;}
+#footer a{color:#666;font-size:14px;transition:all .2s ease-in;}
+#footer a:hover{text-decoration:underline!important;}
+#footer p{margin-bottom:15px;}
+@media (max-width: 1650px){
+    .domains_body .domains_logo a{margin: 40px auto;height: 75px}
+    .domains_left,.domains_right{padding:16px 28px}
+    .domains_wrap>div{height: 510px}
+    .domains_left .domains_box{padding: 18px 48px 0}
+    .domains_right .domains_pack{padding: 18px 26px 0}
+    .domains_left .domains_box p{margin-bottom: 15px;padding-bottom: 15px;font-size: 14px}
+    .domains_left .speed_box_ul li{margin-bottom: 7px}
+    .domains_pack .pack_top h6,.domains_pack .pack_mid h6{font-size: 14px}
+}
+@media (max-width: 1400px){
+    .domains_body .domains_logo a{height: 65px;    margin: 20px auto;}
+    .domains_left .speed_box_ul li{height: 26px;line-height: 26px}
+    .domains_pack .pack_bottom a.dns{margin-top: 10px}
+    .domains_pack .pack_bottom a{height: 40px;line-height: 40px}
+    .domains_pack .pack_bottom a.tool{margin: 15px 0}
+    .domains_box .domains_btn{height: 42px;line-height: 42px;margin-top: 10px}
+    .domains_wrap>div{height: 460px;}
+    .domains_pack .pack_top p{margin-bottom: 10px;padding-bottom: 10px}
+}
+@media (max-width: 768px){
+    .domains_bg{background-repeat: repeat-y;}
+    .domains_left .domains_box p{display: none}
+    .domains_bg .domains_body{width: 98%}
+    .domains_wrap>div{width: 100%}
+    .domains_left .domains_box{padding:5px;margin: 5px}
+    .domains_left, .domains_right{padding: 0}
+    .speed_box_ul li .domian_arrow{display: none}
+    .domains_left .speed_box_ul li{display: flex;justify-content: space-between}
+    .domains_left .speed_box_ul .speed_num{width: 23%}
+    .domains_left .speed_box_ul li>div{width: 48%}
+    .domains_left .speed_box_ul a.btn{width: 22%}
+    .domains_wrap>div{height: auto}
+    .domains_wrap .line_wrap{display: none}
+    .domains_pack .pack_bottom a{padding-left: 120px;background-position: 80px center}
+    .domains_right .domains_pack{padding-bottom: 30px}
+}
